@@ -46,8 +46,12 @@ public class Wallet {
     }
 
     //    Methods
-    public void addCard(String card) {this.cards.add(card);}
-    public void takeCard(String card) {this.cards.remove(card);}
+    public void addCard(String card) {
+        this.cards.add(card);
+    }
+    public void takeCard(String card) {
+        this.cards.remove(card);
+    }
     public void addMoney(Integer moneyType) {
         boolean isMoneyValid = false;
 
